@@ -18,6 +18,7 @@ A Java implementation of a resizable array-based set data structure.
 - allPairs(): Returns a set of all possible strings made by joining one element from this set with each element from another set.
 - String getEarliestWord(): Returns the lexicographically earliest word in the set.
 
+
 ## Project #2: Linked Extended Set with Generics
 An implementation of an extended set data structure with linked nodes, utilizing Java generics.
 
@@ -35,6 +36,39 @@ An implementation of an extended set data structure with linked nodes, utilizing
 - Object[] toArray(): Converts the set to an array of objects.
 - Object[] toUniqueArray(): Converts the set to an array of unique objects.
 - Object[] toSortedArray(): Converts the set to a sorted array of objects.
+
+
+## Project #3: Deque, Queue, and Stack
+An implementation of a double-ended queue (deque) data structure using linked nodes, an implementation of a Queue, and an implementation of a Stack in Java.
+
+### Methods
+#### Deque
+- void addToFront(T item): Adds an item to the front of the deque.
+- void addToBack(T item): Adds an item to the back of the deque.
+- T removeFront(): Removes and returns the item from the front of the deque.
+- T removeBack(): Removes and returns the item from the back of the deque.
+- T getFront(): Returns the item at the front of the deque without removing it.
+- T getBack(): Returns the item at the back of the deque without removing it.
+- boolean isEmpty(): Checks if the deque is empty.
+- void clear(): Clears all elements from the deque.
+- String toString(): Returns a string representation of the deque.
+
+#### Deque Stack 
+- void push(T item): Adds an item to the top of the stack.
+- T pop(): Removes and returns the item from the top of the stack.
+- T peek(): Returns the item at the top of the stack without removing it.
+- boolean isEmpty(): Checks if the stack is empty.
+- void clear(): Clears all elements from the stack.
+
+
+
+
+
+
+
+
+
+
 
 
 
