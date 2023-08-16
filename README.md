@@ -1,6 +1,6 @@
 # Object-Oriented-Programming
 
-## Project #1: Resizable Array Set
+## Project #1: [Resizable Array Set](https://github.com/YoAx22/Object-Oriented-Programming/blob/main/ResizableArraySet.java)
 A Java implementation of a resizable array-based set data structure.
 
 ### Methods
@@ -19,7 +19,7 @@ A Java implementation of a resizable array-based set data structure.
 - String getEarliestWord(): Returns the lexicographically earliest word in the set.
 
 
-## Project #2: Linked Extended Set with Generics
+## Project #2: [Linked Extended Set with Generics](https://github.com/YoAx22/Object-Oriented-Programming/tree/main/LinkedExtendedSet%20with%20Generics)
 An implementation of an extended set data structure with linked nodes, utilizing Java generics.
 
 ### Methods
@@ -38,7 +38,7 @@ An implementation of an extended set data structure with linked nodes, utilizing
 - Object[] toSortedArray(): Converts the set to a sorted array of objects.
 
 
-## Project #3: Deque, Queue, and Stack
+## Project #3: [Deque, Queue, and Stack](https://github.com/YoAx22/Object-Oriented-Programming/tree/main/Deque-Queue-Stack)
 An implementation of a double-ended queue (deque) data structure using linked nodes, an implementation of a Queue, and an implementation of a Stack in Java.
 
 ### Methods
@@ -61,8 +61,22 @@ An implementation of a double-ended queue (deque) data structure using linked no
 - void clear(): Clears all elements from the stack.
 
 
+## Project #4: [Data Analysis with Covid-19 Data](https://github.com/YoAx22/Object-Oriented-Programming/blob/main/CovidData.java)
+This project involves analyzing COVID-19 data stored in a CSV file to derive various insights using the Data class in Java. It covers aspects like cases by location, cases by date, deaths by continent, and more.
 
-
+### Methods
+- Set<String> allLocations(): Returns a set of all unique location names.
+- Set<String> allContinents(): Returns a set of all unique continents.
+- Set<String> getLocationsInThisContinent(String continent): Returns locations within a specific continent.
+- Map<String, Integer> deathsByContinent(): Returns a map of deaths by continent.
+- Map<String, Integer> casesByLocation(): Returns a map of cases by location.
+- Map<String, Integer> casesByLocation(int month): Returns a map of cases by location for a specific month.
+- Map<String, Set<String>> locationsByContinent(): Returns a map of locations by continent.
+- Map<String, Integer> codeCounts(): Returns a map of occurrence counts for 3-letter location codes.
+- Map<Date, Integer> casesByDate(): Returns a map of cases by date.
+- List<String> locationsSortedByCaseCount(): Returns a list of locations sorted by case count.
+- Map<Date, Set<String>> mostCasesByDate(): Returns locations with the most cases on a given date.
+- Map<Integer, Integer> casesByMonth(): Returns a map of cases by month.
 
 
 
