@@ -79,8 +79,20 @@ This project involves analyzing COVID-19 data stored in a CSV file to derive var
 - Map<Integer, Integer> casesByMonth(): Returns a map of cases by month.
 
 
+## Project #5: [WordTree](https://github.com/YoAx22/Object-Oriented-Programming/blob/main/WordTree.java)
+The WordTree class is designed to represent a tree structure for storing and manipulating words efficiently. It provides methods for adding, removing, and querying words within the tree.
 
-
+### Methods
+- boolean add(String word): Adds a word to the tree if it's not already present.
+- boolean contains(String word): Checks if a word exists in the tree.
+- boolean remove(String word): Removes a word from the tree if it exists.
+- int nodeCount(): Returns the total number of nodes in the tree.
+- int wordCount(): Returns the total number of words stored in the tree.
+- int lettersSaved(): Calculates the number of letters saved by using the tree structure.
+- void clear(): Removes all words from the tree.
+- Set<String> allWords(): Returns a set containing all words in the tree.
+- Set<String> allStartingWith(String prefix): Returns a set of words that start with a specified prefix.
+- Map<Character, Set<String>> wordMap(): Returns a map of words grouped by their starting letters.
 
 
 
